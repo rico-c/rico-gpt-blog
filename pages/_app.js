@@ -1,7 +1,7 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
 import 'katex/dist/katex.css'
-
+import { Analytics as VelcelA } from '@vercel/analytics/react';
 import '@fontsource/inter/variable-full.css'
 
 import { ThemeProvider } from 'next-themes'
@@ -23,6 +23,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
+      <VelcelA />
       <LayoutWrapper>
         <Component {...pageProps} />
       </LayoutWrapper>
