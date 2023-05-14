@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Max Media',
+  title: 'Mix Media',
   author: 'Rico',
-  headerTitle: 'Max Media',
-  description: 'Max Media',
+  headerTitle: 'Mix Media',
+  description: 'Mix Media',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://maxmedia.vercel.app',
